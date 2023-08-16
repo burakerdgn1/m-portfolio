@@ -1,0 +1,30 @@
+<div class="container">
+    <h1>Projects</h1>
+
+    <section *ngFor="let project of projects">
+        <div class="row">
+            <div class="col">
+                <h2>{{project.title}}</h2>
+
+                <h3>
+                    <span>Technologies: </span>
+                    <span>{{project.technologies}}</span>
+                </h3>
+
+                <ul *ngFor="let desc of project.description">
+                    <li>{{desc}}</li>
+                </ul>
+                <a class="see-project"  (click)="onClick(project.link)" >See Project</a>
+
+                <div class="imgDiv" >
+                    <img class="project-link"  [src]="project.imagePath" alt="project.title">
+                </div>
+            </div>
+            <br>
+            <br>
+
+        </div>
+    </section>
+    <a class="see-all" style="font-size: large;" (click)="onClickAll()" >See All Projects</a>
+
+</div>

@@ -1,0 +1,10 @@
+<div class="container">
+    <h1>Certificates</h1>
+
+    <section *ngFor="let certificate of certificateList">
+        <h2>{{certificate.course}}</h2>
+        <h3>{{certificate.institute}}</h3>
+        <h3> <a class="see-project"  (click)="onClick(certificate.link)" >See Certificate</a>
+        </h3>
+    </section>
+</div>

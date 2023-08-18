@@ -14,13 +14,14 @@ import { ResponsiveDirective } from './directives/responsive.directive';
 import { HeaderComponent } from './header/header.component';
 import { HonorsComponent } from './honors/honors.component';
 import {APP_BASE_HREF} from '@angular/common';
+import { CertificatesComponent } from './certificates/certificates.component';
 
 
 
 
 
 @NgModule({
-  declarations: [AppComponent, BanerComponent, PersonalInformationComponent, EducationComponent, WorkExperienceComponent, SkillsComponent, ProjectsComponent, ContactComponent, ResponsiveDirective, HeaderComponent, HonorsComponent,],
+  declarations: [AppComponent, BanerComponent, PersonalInformationComponent, EducationComponent, WorkExperienceComponent, SkillsComponent, ProjectsComponent, ContactComponent, ResponsiveDirective, HeaderComponent, HonorsComponent, CertificatesComponent,],
   imports: [BrowserModule, AppRoutingModule],
   providers: [{provide: APP_BASE_HREF, useValue: '/m-portfolio'}],
   bootstrap: [AppComponent],

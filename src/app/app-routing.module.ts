@@ -7,6 +7,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { SkillsComponent } from './skills/skills.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { HonorsComponent } from './honors/honors.component';
+import { CertificatesComponent } from './certificates/certificates.component';
 
 const routes: Routes = [
   { path: '',component:BanerComponent},
@@ -15,7 +16,9 @@ const routes: Routes = [
   { path: 'work',component:WorkExperienceComponent},
   { path: 'skills',component:SkillsComponent} , 
   { path: 'projects',component:ProjectsComponent},
-  { path: 'honors',component:HonorsComponent}
+  { path: 'honors',component:HonorsComponent},
+  { path: 'certificates',component:CertificatesComponent}
+
 ];
 
 @NgModule({

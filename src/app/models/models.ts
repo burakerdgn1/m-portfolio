@@ -35,3 +35,10 @@ export interface Honor {
   duration: string;
   score: string;
 }
+
+export interface Certificate{
+  institute:string,
+  course:string,
+  link:string,
+
+}

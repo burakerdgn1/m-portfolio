@@ -64,7 +64,7 @@ export class ProjectsComponent implements OnInit {
         'An example web application for sharing posts',
       ],
       imagePath:"assets/post.png",
-      link:"https://github.com/burakerdgn1"
+      link:"https://github.com/burakerdgn1/MEAN-Test"
 
     },
   ];

@@ -1,3 +1,5 @@
+https://burakerdgn1.github.io/m-portfolio/#/m-portfolio/
+
 # MPortfolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
